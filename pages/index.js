@@ -81,7 +81,7 @@ export default function PaginaInicial() {
             }}
           >
             <Titulo tag="h2">Boas vindas de volta!</Titulo>
-            <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
+            <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[200] }}>
               {appConfig.name}
             </Text>
 
@@ -109,8 +109,8 @@ export default function PaginaInicial() {
               textFieldColors={{
                 neutral: {
                   textColor: appConfig.theme.colors.neutrals[200],
-                  mainColor: appConfig.theme.colors.neutrals[900],
-                  mainColorHighlight: appConfig.theme.colors.primary[500],
+                  mainColor: appConfig.theme.colors.neutrals[400],
+                  mainColorHighlight: appConfig.theme.colors.primary[400],
                   backgroundColor: appConfig.theme.colors.neutrals[800],
                 },
               }}
@@ -123,7 +123,7 @@ export default function PaginaInicial() {
                 contrastColor: appConfig.theme.colors.neutrals["000"],
                 mainColor: appConfig.theme.colors.primary[500],
                 mainColorLight: appConfig.theme.colors.primary[400],
-                mainColorStrong: appConfig.theme.colors.primary[600],
+                mainColorStrong: appConfig.theme.colors.primary[400],
               }}
             />
           </Box>
